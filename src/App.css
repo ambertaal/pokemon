@@ -1,3 +1,14 @@
+.App {
+  text-align: center;
+  font-family: monospace;
+}
+
+.navItem {
+  background-color: lightgrey;
+  font-size: 18px;
+  padding: 10px;
+}
+
 .navItem.active {
   font-weight: bold;
   color: "#fff";

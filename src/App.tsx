@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, NavLink } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 
@@ -11,8 +11,8 @@ import PokemonDiscoveryPage from "./pages/PokemonDiscoveryPage";
 function App() {
   return (
     <div className="App">
+      <h1>◓ Pokemon Discovery ◓</h1>
       <NavBar />
-      <h1>Pokemon!</h1>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="discover" element={<PokemonDiscoveryPage />} />

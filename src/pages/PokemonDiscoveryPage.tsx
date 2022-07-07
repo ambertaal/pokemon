@@ -18,6 +18,7 @@ const PokemonDiscoveryPage = () => {
   }, []);
   return (
     <div>
+      <h1>A short list of all the Pokemons</h1>
       <ol>
         {pokemons ? (
           pokemons.map((pokemon) => {

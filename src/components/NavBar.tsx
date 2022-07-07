@@ -9,7 +9,7 @@ const NavBar = () => {
         </NavLink>
         {"-"}
         <NavLink className="navItem" to="/discover">
-          Pokemon Discover page
+          Discover Pokemons
         </NavLink>
       </div>
     </div>
