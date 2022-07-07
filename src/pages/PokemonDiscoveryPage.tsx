@@ -1,4 +1,5 @@
 import axios from "axios";
+
 import { useEffect, useState } from "react";
 import PokemonListItem from "../components/PokemonListItem";
 
@@ -20,7 +21,11 @@ const PokemonDiscoveryPage = () => {
       <ol>
         {pokemons ? (
           pokemons.map((pokemon) => {
-            return <PokemonListItem pokemonName={pokemon.name} />;
+            return (
+              <div>
+                <PokemonListItem pokemonName={pokemon.name} />
+              </div>
+            );
           })
         ) : (
           <p>Loading...</p>

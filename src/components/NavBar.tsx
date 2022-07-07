@@ -1,6 +1,4 @@
-import { Routes, Route, NavLink } from "react-router-dom";
-import HomePage from "../pages/HomePage";
-import PokemonDiscoveryPage from "../pages/PokemonDiscoveryPage";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -14,10 +12,6 @@ const NavBar = () => {
           Pokemon Discover page
         </NavLink>
       </div>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="discover" element={<PokemonDiscoveryPage />} />
-      </Routes>
     </div>
   );
 };
