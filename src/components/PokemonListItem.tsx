@@ -6,11 +6,11 @@ type Props = {
 
 const PokemonListItem = (props: Props) => {
   return (
-    <li>
+    <div>
       <NavLink to={`/details/${props.pokemonName}`}>
         {props.pokemonName}
       </NavLink>
-    </li>
+    </div>
   );
 };
 
